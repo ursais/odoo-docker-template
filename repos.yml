@@ -1,0 +1,17 @@
+#./odoo/src/contract:
+#    remotes:
+#        oca: https://github.com/OCA/contract.git
+#        ursais: git+ssh://git@github.com/ursais/contract.git
+#    merges:
+#        - oca 14.0
+#        - oca refs/pull/437/head
+#    target: &default_target ursais odoo-template/14.0-RC1
+#
+#./odoo/src/web:
+#    remotes:
+#        oca: https://github.com/OCA/web.git
+#        ursais: git+ssh://git@github.com/ursais/web.git
+#    merges:
+#        - oca 14.0
+#        - oca refs/pull/437/head
+#    target: *default_target
