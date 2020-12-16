@@ -43,6 +43,7 @@ def import_project_time_type(ctx):
 
 @anthem.log
 def main(ctx):
+    pass
     # import_res_groups(ctx)
     # import_res_users(ctx)
     # import_account_account(ctx)
