@@ -1,4 +1,4 @@
-# Installation of OSI - PM System
+# Installation of Odoo Template
 
 ## Table of Contents
 * [Requirements](#Requirements)
@@ -80,7 +80,7 @@ Edit the variables in helm/odoo/values.test.yaml
 
 Run
 ```shell script
-helm install odoo -f values.test.yaml helm/odoo
+helm install odoo -f helm/odoo/values.test.yaml helm/odoo
 ```
 
 ## QA environment
@@ -101,7 +101,7 @@ Edit the variables in helm/odoo/values.qa.yaml
 
 Run
 ```shell script
-helm install odoo -f values.qa.yaml helm/odoo
+helm install odoo -f helm/odoo/values.qa.yaml helm/odoo
 ```
 
 ## Production environment
@@ -122,5 +122,5 @@ Edit the variables in helm/odoo/values.production.yaml
 
 Run
 ```shell script
-helm install odoo -f values.production.yaml helm/odoo
+helm install odoo -f helm/odoo/values.production.yaml helm/odoo
 ```

@@ -1,4 +1,4 @@
-# OSI - PM System
+# Odoo Template
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -101,6 +101,4 @@ Report any issue to this [Github project](https://github.com/ursais/template-pro
 
 ## Roadmap
 
-* Create the database and load the data
-* Upgrade an instance
 * Push the production database to the other environments
