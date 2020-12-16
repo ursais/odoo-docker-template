@@ -11,7 +11,6 @@
     "depends": [
         # Odoo/Enterprise Addons
         # Public Addons
-        "monitoring_status",
         # Private Addons
     ],
     "data": [],
